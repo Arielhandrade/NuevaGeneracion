@@ -1,0 +1,34 @@
+:root{
+    /* COLORS */
+    --green:#BAD247;
+    --ligth-blue:#A1D5ED;
+    --dark-blue:#4B738E;
+    --black:#363636;
+    --white:#FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+html {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--black);
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    background-image: url(/images/backgrounds/bg-body.png);
+    background-size: cover;
+}

@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.main section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.presentation {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  max-width: 500px;
+  padding: 10px;
+  width: 90%;
+}
+
+.logo-presentation {
+  height: 98px;
+  width: 155px;
+}
+
+.presentation .text {
+  font-size: 15px;
+  text-align: justify;
+}
