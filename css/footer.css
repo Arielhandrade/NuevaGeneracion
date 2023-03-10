@@ -87,6 +87,11 @@
 .footer .grupo-2 small{
     font-size: 0.8rem;
 }
+.footer .grupo-2 small a{
+    font-size: 0.8rem;
+    color: var(--ligth-blue);
+    text-decoration: none;
+}
 
 @media screen and (min-width:600px){
     .footer .group1{
